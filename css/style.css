@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Dancing+Script&family=Handjet:wght@100;200;300;400;500;600&family=Kanit:ital,wght@0,200;1,200&family=REM:ital,wght@0,200;0,300;0,400;1,300&family=Zeyada&display=swap');
+
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Handjet', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Zeyada', cursive;
+*/
+.navbar{
+    background-attachment:fixed ;
+}
+.n1{
+    color: black;font-family: 'Kanit', sans-serif;
+    font-size: 16px;font-weight: bold;
+}
+.time{
+    font-family: 'Dancing Script', cursive;font-size: 50px;color: red;
+}
+.h1{
+    font-family: 'Zeyada', cursive;font-weight: bold;font-size: 70px;
+}
+.r1, .h2{
+    margin-top: 5%;
+}
+.im1{
+    width:100%;height: 100%;
+    object-fit: cover;padding: 5px;
+}
+.h2, .h3{
+text-align: center;font-family: 'Caveat', cursive;
+}
+.r2{
+    margin-top: 18%;
+}
+.im2{
+    width:100%;height: 100%;
+    object-fit: cover;padding:7px;
+}
+.r3{
+    margin-top: 10%;
+}
+.h4{
+    text-align: center;font-family: 'Kanit', sans-serif;
+    font-size: 55px;font-weight:bold;
+}
+.p1{
+    text-align: center;font-style: oblique;
+}
+.r4{
+    margin-top: 5%; 
+}
+.im3{
+    width:65%;height: 70%;
+}
+.im4{
+    width:80%;height: 80%;
+}
+.im5{
+    width:65%;height: 60%;
+}
+.r5, .r6, .r7, .r9{
+    margin-top: 6%;  
+}
+.h5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;font-weight: bold;
+    margin-top: 10%;
+}
+.p2{font-style: oblique;font-size: 20px;}
+.im6{
+    width:55%;height: 74%;
+}
+.im7{
+    width:75%;height:90%;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+ }
+ .btn {
+    background: #ff2020;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 30px 28px;
+    border-radius: 0px;
+    display: inline-block;
+    line-height: 0;
+    transition: color 0.4s linear;
+    position: relative;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+ }
+ .btn {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle; 
+ }
+ .box{
+    background-color: #ff2020;
+    color: #fff;
+    padding: 50px;margin-top: 5%;
+ }
+ .h6{font-size: 25px;font-family: 'REM', sans-serif;}
+.logo{width:150px;}
+.r{
+    background-color:rgba(37,62,63, 0.4);
+    
+}
+.h8{
+    font-family: 'Kanit', sans-serif;margin-top:20%;
+    font-size: 100px;font-weight: bold;color: rgb(6, 6, 51);
+}
+.p7{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:80%;
+}
+.sho{
+    background: #3d3b3b;
+    font-family: "Josefin Sans",sans-serif;
+    color: #fff; padding: 10px 8px;
+    font-size: 16px;  font-weight: 600;
+}
+.multicolor{
+    color: orangered;
+}
+.bi{
+    margin-right: 15px;
+}
+.red{
+    color: black;
+}
+.p3{
+    text-align:justify;
+}
+.bor{
+    border-style: solid;
+    border-width:2px;
+    color:red;
+}
+.tab .effect {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer
+}
+ 
+.tab .effect .tab-text {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+.effect.effect-two .tab-text {
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 3.75em;
+	background: red;
+	color: #f1f3f5;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0)
+}
+
+.effect.effect-two h2 {
+	font-size: 1.1rem;
+	
+}
+
+
+.effect.effect-two:hover .tab-text,
+.effect.effect-two:hover h2,
+.effect.effect-two:hover p.icon-links a {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	padding-right: 10px
+}
+
+.a {
+    width: 75%;
+}
+
+.a {
+    animation: pulse 1s infinite ease-in-out alternate;
+  }
+  @keyframes pulse {
+    from { transform: scale(0.4); }
+    to { transform: scale(0.8); }
+  }
